@@ -1,4 +1,4 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [15-minute diagnostic](../diagnostic.md) · Next: [Domain 2: Asset Security](asset-security.md)<!-- /nav:top -->
+<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [5-minute diagnostic](../diagnostic.md) · Next: [Domain 2: Asset Security](asset-security.md)<!-- /nav:top -->
 
 # Domain 1: Security and Risk Management
 
@@ -186,9 +186,7 @@ Across the exam you have 3 hours for up to 150 items, an average of 72 seconds e
 
 ## Practice items
 
-These 12 items are original, written for these notes. They are not taken from ISC2 or any prep provider. Choose one answer for each.
-
-### Set 1
+These 2 items are original, written for these notes. They are not taken from ISC2 or any prep provider. Choose one answer for each.
 
 **Item 1.** You are a security engineer at a medical device maker. You find that a shipping infusion pump can be made to deliver the wrong dose over its wireless interface. Your manager tells you to keep it quiet until next year's model ships. Which ISC2 canon should guide your response above the others?
 
@@ -197,135 +195,33 @@ These 12 items are original, written for these notes. They are not taken from IS
 - C. Advance and protect the profession
 - D. Act honorably, honestly, justly, responsibly, and legally
 
-**Item 2.** A file server is valued at 400,000. A ransomware event would cost 25% of that value. The organisation expects such an event once every five years. What is the annualised loss expectancy?
-
-- A. 20,000
-- B. 80,000
-- C. 100,000
-- D. 500,000
-
-**Item 3.** A risk has an ALE of 30,000 with no control. A proposed control would reduce the ALE to 12,000 and costs 21,000 a year to run. What is the annual value of the control?
+**Item 2.** A risk has an ALE of 30,000 with no control. A proposed control would reduce the ALE to 12,000 and costs 21,000 a year to run. What is the annual value of the control?
 
 - A. 18,000 saved
 - B. 9,000 saved
 - C. 3,000 saved
 - D. A loss of 3,000
 
-**Item 4.** Before signing a contract, your team reads a cloud provider's independent assurance report and its latest penetration test summary to judge whether its controls are adequate. Which term BEST describes this activity?
-
-- A. Due care
-- B. Risk transference
-- C. Due diligence
-- D. Risk acceptance
-
 <details>
-<summary>Answers and explanations, items 1 to 4</summary>
+<summary>Answers and explanations, items 1 and 2</summary>
 
 **Item 1: B.** A device that can harm patients is a threat to public safety, which falls under the first canon. The canons are applied in order, so protecting society comes before serving your employer. *Why not A:* serving principals is the third canon and gives way when it conflicts with the first. *Why not D:* acting honestly also applies, but the question asks which canon takes precedence, and canon 1 sits above it.
 
-**Item 2: A.** SLE = 400,000 x 0.25 = 100,000. ARO for once every five years is 0.2. ALE = 100,000 x 0.2 = 20,000. *Why not C:* 100,000 is the SLE, the cost of one event, not the yearly figure. *Why not D:* multiplying by 5 instead of dividing is the classic ARO slip.
-
-**Item 3: D.** Value = ALE before (30,000) minus ALE after (12,000) minus annual cost (21,000) = negative 3,000. The control costs more than the loss it prevents. *Why not A:* 18,000 is the reduction in ALE, before the control's own cost is subtracted. *Why not C:* the sign is reversed.
-
-**Item 4: C.** Investigating and verifying a supplier's controls before relying on them is due diligence. *Why not A:* due care is operating the controls you have; here the team is still finding out what is adequate. *Why not B:* no risk has moved to anyone yet; they are only evaluating the provider.
+**Item 2: D.** Value = ALE before (30,000) minus ALE after (12,000) minus annual cost (21,000) = negative 3,000. The control costs more than the loss it prevents. *Why not A:* 18,000 is the reduction in ALE, before the control's own cost is subtracted. *Why not C:* the sign is reversed.
 
 </details>
 
-### Set 2
-
-**Item 5.** A small firm's office sits in a flood zone. Defences would cost far more than the expected losses. The managing director reviews the analysis and signs a memo saying the firm will carry the risk and review it yearly. What has the firm done?
-
-- A. Accepted the risk
-- B. Transferred the risk
-- C. Mitigated the risk
-- D. Avoided the risk
-
-**Item 6.** The board has approved and funded a business continuity programme, signed off its policy and scope, and appointed a coordinator and team. Of the following, what should the coordinator do NEXT?
-
-- A. Select and contract an alternate processing site
-- B. Conduct a business impact analysis
-- C. Write the recovery procedures for each critical system
-- D. Schedule a tabletop exercise with department heads
-
-**Item 7.** The maximum tolerable downtime for payroll is 72 hours. After systems are restored, staff need 24 hours to verify data and catch up. Which recovery time objective is the LONGEST that still meets the requirement?
-
-- A. 96 hours
-- B. 72 hours
-- C. 60 hours
-- D. 48 hours
-
-**Item 8.** An employee is suspected of selling customer records. The company wants the person prosecuted, not just dismissed. Which type of investigation demands the highest standard of proof?
-
-- A. Administrative
-- B. Civil
-- C. Regulatory
-- D. Criminal
-
-<details>
-<summary>Answers and explanations, items 5 to 8</summary>
-
-**Item 5: A.** A documented decision by someone with authority to live with a risk, because control costs exceed expected loss, is risk acceptance. *Why not B:* nothing has been passed to an insurer or another party. *Why not D:* avoidance would mean moving out of the flood zone or stopping the activity.
-
-**Item 6: B.** With management support and scope in place, the BIA comes next. It identifies critical processes, their impacts and their recovery targets, which every later decision depends on. *Why not A:* choosing a site is a recovery strategy, and you cannot size it before the BIA sets RTOs. *Why not D:* you test a plan after it exists.
-
-**Item 7: D.** RTO plus work recovery time must not exceed MTD. 48 + 24 = 72, exactly at the limit. *Why not C:* 60 + 24 = 84 hours, beyond the 72-hour MTD. *Why not B:* setting RTO equal to MTD leaves no time for the 24 hours of verification.
-
-**Item 8: D.** Criminal cases need proof beyond a reasonable doubt, the highest standard. *Why not B:* civil cases use preponderance of the evidence, a lower bar. *Why not A:* an internal administrative investigation has no court standard and cannot by itself lead to prosecution.
-
-</details>
-
-### Set 3
-
-**Item 9.** During a design review of a payment API, the team notes that an attacker on the network could change the amount field of a request before it reaches the server. In STRIDE, which category is this?
-
-- A. Spoofing
-- B. Repudiation
-- C. Tampering
-- D. Elevation of privilege
-
-**Item 10.** Your organisation is buying network switches for a classified environment and is worried about counterfeit or modified hardware. Which measure BEST reduces this risk before the switches are installed?
-
-- A. Buy only through the manufacturer's authorised channels and require documented provenance in the contract
-- B. Run a vulnerability scan on each switch once it is connected to the production network
-- C. Apply the latest firmware to each switch immediately after installation
-- D. Place each new switch on an isolated network segment for its first month in service
-
-**Item 11.** After a year of security awareness work, the CISO must show the board whether it changed behaviour. Which measure is BEST?
-
-- A. The percentage of staff who completed the annual awareness course on time
-- B. The trend in phishing simulation click rates and report rates over the year
-- C. The average score on the quiz at the end of the course
-- D. The number of staff who read and signed the acceptable use policy during the year
-
-**Item 12.** An organisation requires staff in its finance team to take ten consecutive working days of leave each year, during which a colleague performs their duties. What is the MAIN security purpose of this rule?
-
-- A. Reducing burnout so that staff make fewer mistakes
-- B. Building redundancy so the team can cope with resignations
-- C. Detecting fraud that relies on one person always being present
-- D. Enforcing separation of duties for payment approval
-
-<details>
-<summary>Answers and explanations, items 9 to 12</summary>
-
-**Item 9: C.** Changing data in transit attacks integrity, which STRIDE calls Tampering. *Why not A:* spoofing is pretending to be someone else; the attacker here changes data, not identity. *Why not D:* no one gains higher permissions.
-
-**Item 10: A.** Counterfeit and tampered hardware enters through the supply chain, so the control that addresses it is sourcing through authorised channels with provenance written into the contract, before anything arrives. *Why not B:* a scan after connection is late and will not find a hardware implant. *Why not C:* firmware updates do not prove the hardware is genuine and could be applied to a tampered device.
-
-**Item 11: B.** The question asks about behaviour. Phishing click and report rates over time measure what people actually do. *Why not C:* a quiz measures recall right after the course, not behaviour later. *Why not A:* completion shows attendance only.
-
-**Item 12: C.** Mandatory vacation puts someone else in the role, so fraud or errors that depend on the regular person covering their tracks tend to surface. *Why not D:* separation of duties splits one task between people at the same time; this rule rotates the whole job temporarily. *Why not B:* cross-cover is a side benefit, not the security purpose.
-
-</details>
+Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) has 25 questions across all eight domains, scored by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | B | A | D | C | A | B | D | D | C | A | B | C |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | B | D |
 
-- **11 to 12:** strong. Keep this domain warm with mixed sets and spend your time on weaker domains.
-- **8 to 10:** look at the type of miss. Calculation slips mean drilling ARO and the safeguard formula. Judgement misses mean rereading the method, steps 3 to 5.
-- **7 or fewer:** reread Key concepts slowly, then explain the risk formulas, the BIA terms and the canon order out loud without notes before trying again.
+- **2:** strong. Keep this domain warm with mixed sets and spend your time on weaker domains.
+- **1:** look at the type of miss. Calculation slips mean drilling ARO and the safeguard formula. Judgement misses mean rereading the method, steps 3 to 5.
+- **0:** reread Key concepts slowly, then explain the risk formulas, the BIA terms and the canon order out loud without notes before trying again.
 
 ## Next step
 
@@ -338,4 +234,4 @@ Domain 1 judgement is easier to train against a clock. Try a timed mixed set wit
 
 ---
 
-<!-- nav:bottom -->← Previous: [15-minute diagnostic](../diagnostic.md) | Next: [Domain 2: Asset Security](asset-security.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->← Previous: [5-minute diagnostic](../diagnostic.md) | Next: [Domain 2: Asset Security](asset-security.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->

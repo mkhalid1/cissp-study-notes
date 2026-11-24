@@ -1,13 +1,13 @@
 # CISSP Study Notes
 
-A free, structured study guide for the ISC2 CISSP exam: how the adaptive exam works, a guide to each of the eight domains with the key concepts examiners test, 96 original practice items with full explanations, a 24-item diagnostic, how scoring really works, and plans for your final week or final two days. Written for working security and IT professionals, with a dedicated page on thinking like a manager, which is where most technical candidates lose marks. Facts about the exam come only from ISC2's own pages, each one [cited](docs/sources.md).
+A free, structured study guide for the ISC2 CISSP exam: how the adaptive exam works, a guide to each of the eight domains with the key concepts examiners test, 16 original practice items with full explanations, an 8-item diagnostic, how scoring really works, and plans for your final week or final two days. Written for working security and IT professionals, with a dedicated page on thinking like a manager, which is where most technical candidates lose marks. Facts about the exam come only from ISC2's own pages, each one [cited](docs/sources.md).
 
-Want to see where you stand first? Take the [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp), or the shorter [15-minute diagnostic](docs/diagnostic.md) in this repo.
+Want to see where you stand first? Take the [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp), or the shorter [5-minute diagnostic](docs/diagnostic.md) in this repo.
 
 ## Start here
 
-1. **Find your weak domains.** Take the [15-minute diagnostic](docs/diagnostic.md). It has three items from each domain and tells you where to start.
-2. **Fix the weakest domain first.** Open its guide below, learn the key concepts and the method, then do its 12 practice items.
+1. **Find your weak domains.** Take the [5-minute diagnostic](docs/diagnostic.md). It has one item from each domain and tells you where to start.
+2. **Fix the weakest domain first.** Open its guide below, learn the key concepts and the method, then do its 2 practice items.
 3. **Follow a plan.** Use the [7-day plan](docs/study-plans.md#7-day-plan) for your final week, or the [2-day plan](docs/study-plans.md#2-day-plan) if the exam is close.
 
 ## Quick facts
@@ -40,7 +40,7 @@ Sources: [ISC2 exam outline](https://www.isc2.org/certifications/cissp/cissp-cer
 | 7. Security Operations | 13% | Evidence, monitoring, incidents, change, backups, recovery, DR tests | [Domain 7](docs/sections/security-operations.md) |
 | 8. Software Development Security | 10% | SDLC models, testing tools, coding weaknesses, acquired software | [Domain 8](docs/sections/software-development-security.md) |
 
-Every domain guide has the same parts: what it covers (the official subdomains), key concepts, how the questions look, a step-by-step method, the traps that cost points, timing advice, 12 original practice items with explanations, and a score table.
+Every domain guide has the same parts: what it covers (the official subdomains), key concepts, how the questions look, a step-by-step method, the traps that cost points, timing advice, 2 original practice items with explanations, and a score table.
 
 ## Contents
 
@@ -56,7 +56,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
   - [What the questions reward](docs/test-overview.md#what-the-questions-reward)
   - [The April 2027 outline](docs/test-overview.md#the-april-2027-outline)
   - [Practise the real format](docs/test-overview.md#practise-the-real-format)
-- [15-minute diagnostic](docs/diagnostic.md)
+- [5-minute diagnostic](docs/diagnostic.md)
   - [Part A: Security and Risk Management](docs/diagnostic.md#part-a-security-and-risk-management)
   - [Part B: Asset Security](docs/diagnostic.md#part-b-asset-security)
   - [Part C: Security Architecture and Engineering](docs/diagnostic.md#part-c-security-architecture-and-engineering)
@@ -78,6 +78,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
   - [Timing](docs/sections/security-and-risk-management.md#timing)
   - [Practice items](docs/sections/security-and-risk-management.md#practice-items)
   - [Score yourself](docs/sections/security-and-risk-management.md#score-yourself)
+  - [Sources for this page](docs/sections/security-and-risk-management.md#sources-for-this-page)
 - [Domain 2: Asset Security](docs/sections/asset-security.md)
   - [What it covers](docs/sections/asset-security.md#what-it-covers)
   - [Key concepts](docs/sections/asset-security.md#key-concepts)
@@ -87,6 +88,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
   - [Timing](docs/sections/asset-security.md#timing)
   - [Practice items](docs/sections/asset-security.md#practice-items)
   - [Score yourself](docs/sections/asset-security.md#score-yourself)
+  - [Sources for this page](docs/sections/asset-security.md#sources-for-this-page)
 - [Domain 3: Security Architecture and Engineering](docs/sections/security-architecture-and-engineering.md)
   - [What it covers](docs/sections/security-architecture-and-engineering.md#what-it-covers)
   - [Key concepts](docs/sections/security-architecture-and-engineering.md#key-concepts)
@@ -96,6 +98,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
   - [Timing](docs/sections/security-architecture-and-engineering.md#timing)
   - [Practice items](docs/sections/security-architecture-and-engineering.md#practice-items)
   - [Score yourself](docs/sections/security-architecture-and-engineering.md#score-yourself)
+  - [Sources for this page](docs/sections/security-architecture-and-engineering.md#sources-for-this-page)
 - [Domain 4: Communication and Network Security](docs/sections/communication-and-network-security.md)
   - [What it covers](docs/sections/communication-and-network-security.md#what-it-covers)
   - [Key concepts](docs/sections/communication-and-network-security.md#key-concepts)
@@ -105,6 +108,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
   - [Timing](docs/sections/communication-and-network-security.md#timing)
   - [Practice items](docs/sections/communication-and-network-security.md#practice-items)
   - [Score yourself](docs/sections/communication-and-network-security.md#score-yourself)
+  - [Sources for this page](docs/sections/communication-and-network-security.md#sources-for-this-page)
 - [Domain 5: Identity and Access Management](docs/sections/identity-and-access-management.md)
   - [What it covers](docs/sections/identity-and-access-management.md#what-it-covers)
   - [Key concepts](docs/sections/identity-and-access-management.md#key-concepts)
@@ -114,6 +118,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
   - [Timing](docs/sections/identity-and-access-management.md#timing)
   - [Practice items](docs/sections/identity-and-access-management.md#practice-items)
   - [Score yourself](docs/sections/identity-and-access-management.md#score-yourself)
+  - [Sources for this page](docs/sections/identity-and-access-management.md#sources-for-this-page)
 - [Domain 6: Security Assessment and Testing](docs/sections/security-assessment-and-testing.md)
   - [What it covers](docs/sections/security-assessment-and-testing.md#what-it-covers)
   - [Key concepts](docs/sections/security-assessment-and-testing.md#key-concepts)
@@ -123,6 +128,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
   - [Timing](docs/sections/security-assessment-and-testing.md#timing)
   - [Practice items](docs/sections/security-assessment-and-testing.md#practice-items)
   - [Score yourself](docs/sections/security-assessment-and-testing.md#score-yourself)
+  - [Sources for this page](docs/sections/security-assessment-and-testing.md#sources-for-this-page)
 - [Domain 7: Security Operations](docs/sections/security-operations.md)
   - [What it covers](docs/sections/security-operations.md#what-it-covers)
   - [Key concepts](docs/sections/security-operations.md#key-concepts)
@@ -132,6 +138,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
   - [Timing](docs/sections/security-operations.md#timing)
   - [Practice items](docs/sections/security-operations.md#practice-items)
   - [Score yourself](docs/sections/security-operations.md#score-yourself)
+  - [Sources for this page](docs/sections/security-operations.md#sources-for-this-page)
 - [Domain 8: Software Development Security](docs/sections/software-development-security.md)
   - [What it covers](docs/sections/software-development-security.md#what-it-covers)
   - [Key concepts](docs/sections/software-development-security.md#key-concepts)
@@ -141,6 +148,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
   - [Timing](docs/sections/software-development-security.md#timing)
   - [Practice items](docs/sections/software-development-security.md#practice-items)
   - [Score yourself](docs/sections/software-development-security.md#score-yourself)
+  - [Sources for this page](docs/sections/software-development-security.md#sources-for-this-page)
 
 **Scores and strategy**
 
@@ -218,7 +226,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
 
 ## About the practice items
 
-All 96 domain practice items and 24 diagnostic items are original, written for these notes. None are taken from ISC2, from its official materials or from any prep site. They follow the published outline and the style of scenario judgement the exam rewards, so the reasoning you learn here transfers.
+All 16 domain practice items and 8 diagnostic items are original, written for these notes. None are taken from ISC2, from its official materials or from any prep site. They follow the published outline and the style of scenario judgement the exam rewards, so the reasoning you learn here transfers.
 
 ## Contributing
 

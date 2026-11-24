@@ -1,4 +1,4 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Previous: [Home](../README.md) · Next: [15-minute diagnostic](diagnostic.md)<!-- /nav:top -->
+<!-- nav:top -->[Contents](../README.md#contents) · Next: [5-minute diagnostic](diagnostic.md)<!-- /nav:top -->
 
 # The CISSP exam explained
 
@@ -93,8 +93,8 @@ The visible changes: Domain 1 is renamed to put governance first, the weights be
 
 ## Practise the real format
 
-Reading builds knowledge. The adaptive, no-going-back format needs practice of its own. Start with the [15-minute diagnostic](diagnostic.md) to find your weak domains, then try a timed set such as the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp).
+Reading builds knowledge. The adaptive, no-going-back format needs practice of its own. Start with the [5-minute diagnostic](diagnostic.md) to find your weak domains, then try a timed set such as the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp).
 
 ---
 
-<!-- nav:bottom -->← Previous: [Home](../README.md) | Next: [15-minute diagnostic](diagnostic.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->Next: [5-minute diagnostic](diagnostic.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->

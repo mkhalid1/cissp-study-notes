@@ -4,7 +4,7 @@
 
 Be realistic first. The CISSP covers eight broad domains, and most candidates study for weeks or months before the exam. ISC2 does not publish a recommended study time, and the right amount depends on how much of the material you already use at work. The two plans below are not a substitute for that groundwork. They are for the **final week** and the **final 48 hours**, when the goal is to close gaps, practise the format and arrive rested.
 
-Both plans assume you start with the [15-minute diagnostic](diagnostic.md) so you know your weakest domains.
+Both plans assume you start with the [5-minute diagnostic](diagnostic.md) so you know your weakest domains.
 
 ## Before the final week
 
@@ -17,7 +17,7 @@ Expect about 2 to 3 hours a day.
 | Day | Focus | What to do |
 |---|---|---|
 | 1 | Baseline | Reread the [exam overview](test-overview.md) and the [practitioners page](for-practitioners.md). Retake the [diagnostic](diagnostic.md). Pick your three weakest domains. |
-| 2 | Domain 1 plus weakest domain | Domain 1 is the largest at 16% and shapes how you answer everywhere else. Redo its 12 items, then your weakest domain's items. Log every miss. |
+| 2 | Domain 1 plus weakest domain | Domain 1 is the largest at 16% and shapes how you answer everywhere else. Redo its 2 items, then your weakest domain's items. Log every miss. |
 | 3 | Architecture and networks | Domains 3 and 4. Rebuild the crypto key grid, the model rules and the OSI table from memory, then redo both item sets. |
 | 4 | Identity, testing and software | Domains 5, 6 and 8. Focus on the protocol table, the testing techniques table and the weakness-to-fix table. |
 | 5 | First timed run | A full timed practice session with no going back, such as the [free test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp). Read the [timing guide](timing.md) first. Review every miss. |
@@ -42,7 +42,7 @@ For when the exam is the day after tomorrow.
 
 | Block | Time | What to do |
 |---|---|---|
-| 1 | 20 min | Take the [diagnostic](diagnostic.md). |
+| 1 | 7 min | Take the [diagnostic](diagnostic.md). |
 | 2 | 60 min | Read the "Key concepts" and "Traps" sections for your two weakest domains. |
 | 3 | 45 min | Do those two domains' practice items and read every explanation. |
 | 4 | 60 min | A timed mixed practice set without going back, such as the [free PrepClubs test](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp). |

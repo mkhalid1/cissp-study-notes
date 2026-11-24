@@ -182,9 +182,7 @@ Crypto and model items are fast once the rules are automatic: about 45 to 60 sec
 
 ## Practice items
 
-These 12 items are original, written for these notes. They are not taken from ISC2 or any prep provider.
-
-### Set 1
+These 2 items are original, written for these notes. They are not taken from ISC2 or any prep provider.
 
 **Item 1.** In a system enforcing Bell-LaPadula, a user cleared to Secret tries to save notes into a file labelled Confidential and is blocked. Which rule blocked the write?
 
@@ -193,135 +191,33 @@ These 12 items are original, written for these notes. They are not taken from IS
 - C. The simple integrity property
 - D. The discretionary security property
 
-**Item 2.** A plant's main concern is that data from untrusted field sensors must never corrupt its high-integrity production records. Which model's rules address this MOST directly?
-
-- A. Bell-LaPadula
-- B. Brewer-Nash
-- C. Biba
-- D. Graham-Denning
-
-**Item 3.** A consulting firm advises several banks that compete with each other. Once a consultant opens files for one bank, the system must block that consultant from the other banks' files. Which model fits?
-
-- A. Bell-LaPadula
-- B. Clark-Wilson
-- C. Biba
-- D. Brewer-Nash
-
-**Item 4.** A team of 50 people needs every pair to communicate privately using only symmetric keys. How many unique keys are needed?
-
-- A. 1,225
-- B. 100
-- C. 2,450
-- D. 50
-
-<details>
-<summary>Answers and explanations, items 1 to 4</summary>
-
-**Item 1: B.** The star (*) property forbids writing down, from a higher level to a lower one, so Secret information cannot leak into a Confidential file. *Why not A:* the simple security property forbids reading up, not writing down. *Why not C:* simple integrity belongs to Biba, not Bell-LaPadula.
-
-**Item 2: C.** Biba protects integrity. Its rules stop high-integrity subjects from reading low-integrity data and stop low-integrity subjects from writing up. *Why not A:* Bell-LaPadula protects confidentiality. *Why not B:* Brewer-Nash handles conflicts of interest.
-
-**Item 3: D.** Brewer-Nash, the Chinese Wall model, changes access based on what a user has already accessed, to prevent conflicts of interest. *Why not B:* Clark-Wilson enforces integrity through approved programs and separation of duties, not conflicts between clients. *Why not A:* clearance levels do not change after access, so Bell-LaPadula cannot express this rule.
-
-**Item 4: A.** Pairwise symmetric keys: n(n-1)/2 = 50 x 49 / 2 = 1,225. *Why not B:* 100 is 2n, the number of keys in an asymmetric scheme. *Why not C:* 2,450 forgets to divide by 2, counting each pair twice.
-
-</details>
-
-### Set 2
-
-**Item 5.** Alice signs a contract file and sends it to Bob. Which key does Bob use to verify that Alice signed it?
-
-- A. Alice's private key
-- B. Bob's private key
-- C. Alice's public key
-- D. Bob's public key
-
-**Item 6.** A web application must store user passwords so that a stolen database is as hard as possible to crack. Which approach is BEST?
+**Item 2.** A web application must store user passwords so that a stolen database is as hard as possible to crack. Which approach is BEST?
 
 - A. Encrypt the passwords with AES-256 and store the key on the same server
 - B. Store an unsalted SHA-256 hash of each password
 - C. Store an MD5 hash of each password with one shared secret added
 - D. Store the output of a slow, salted key derivation function such as Argon2 or bcrypt
 
-**Item 7.** An attacker with physical access to a smart card measures how long it takes to respond to many operations and uses the variations to recover its private key. What type of attack is this?
-
-- A. Fault injection
-- B. Timing attack
-- C. Chosen ciphertext
-- D. Frequency analysis
-
-**Item 8.** An attacker dumps password hashes from a workstation's memory and then uses one hash directly to authenticate to a file server, without ever learning the plaintext password. What is this called?
-
-- A. Pass the hash
-- B. Brute force
-- C. A rainbow table attack
-- D. Known plaintext
-
 <details>
-<summary>Answers and explanations, items 5 to 8</summary>
+<summary>Answers and explanations, items 1 and 2</summary>
 
-**Item 5: C.** Signatures are created with the signer's private key and verified with the signer's public key, which anyone can obtain. *Why not A:* only Alice holds her private key; Bob cannot and should not have it. *Why not D:* Bob's keys are used when someone sends Bob a confidential message, not to check Alice's signature.
+**Item 1: B.** The star (*) property forbids writing down, from a higher level to a lower one, so Secret information cannot leak into a Confidential file. *Why not A:* the simple security property forbids reading up, not writing down. *Why not C:* simple integrity belongs to Biba, not Bell-LaPadula.
 
-**Item 6: D.** A slow, salted key derivation function makes each guess expensive and defeats precomputed tables. *Why not B:* SHA-256 is fast and unsalted, so it is open to rainbow tables and rapid guessing. *Why not A:* encryption is reversible, and with the key on the same server a breach exposes every password.
-
-**Item 7: B.** Measuring how long operations take to infer secret values is a timing attack, a kind of side-channel attack. *Why not A:* fault injection deliberately causes errors, such as voltage glitches; here the attacker only observes. *Why not C:* the attacker is not choosing ciphertexts to be decrypted.
-
-**Item 8: A.** Reusing a captured hash as the credential, with no cracking, is pass the hash. *Why not C:* a rainbow table attack recovers the plaintext from a hash; here the plaintext is never needed. *Why not B:* nothing is being guessed.
+**Item 2: D.** A slow, salted key derivation function makes each guess expensive and defeats precomputed tables. *Why not B:* SHA-256 is fast and unsalted, so it is open to rainbow tables and rapid guessing. *Why not A:* encryption is reversible, and with the key on the same server a breach exposes every password.
 
 </details>
 
-### Set 3
-
-**Item 9.** A company is building a data centre and wants a water-based sprinkler system with the lowest risk of accidental discharge onto equipment. Which type is BEST?
-
-- A. Wet pipe
-- B. Deluge
-- C. Pre-action
-- D. Dry pipe
-
-**Item 10.** A perimeter firewall's software crashes. Which behaviour reflects the principle of failing securely?
-
-- A. It passes all traffic until it is restarted, to keep the business online
-- B. It blocks all traffic until it is restored
-- C. It raises an alert and continues to pass traffic using its last rule set
-- D. It switches to monitoring mode and logs all traffic
-
-**Item 11.** A company moves its web servers to an Infrastructure as a Service provider. Who is responsible for patching the operating systems on those virtual machines?
-
-- A. The provider, because it owns the hardware
-- B. The provider and the customer equally, under a joint arrangement
-- C. The hypervisor vendor
-- D. The customer
-
-**Item 12.** Laptops use full-disk encryption. The security team wants each laptop to release its disk key only if the firmware and boot loader have not been tampered with. Which component provides this?
-
-- A. A Trusted Platform Module in each laptop
-- B. A hardware security module in the data centre
-- C. A firmware administrator password
-- D. A smart card issued to each user
-
-<details>
-<summary>Answers and explanations, items 9 to 12</summary>
-
-**Item 9: C.** Pre-action needs a detection event and then a head to open before water flows, so a single failure does not cause discharge. It is the usual water-based choice for data centres. *Why not D:* dry pipe avoids frozen pipes but releases water as soon as a head opens, without needing a separate detection event. *Why not B:* deluge floods the whole area at once.
-
-**Item 10: B.** Failing securely means falling to a state that protects the assets. For a firewall, that is blocking traffic. *Why not A:* passing all traffic is failing open, which favours availability over security and is not the principle asked about. *Why not C:* a crashed process cannot be trusted to enforce its old rules correctly.
-
-**Item 11: D.** In IaaS the provider secures the physical hosts and the virtualisation layer; the customer manages the guest operating system, applications and data, including patching. *Why not A:* owning the hardware does not make the provider responsible for software the customer installs. *Why not B:* shared responsibility splits duties by layer; it does not make each one joint.
-
-**Item 12: A.** A TPM measures the boot chain and can seal the disk key so it is released only if the measurements match. *Why not B:* an HSM is a data centre key store and cannot measure each laptop's boot process. *Why not C:* a firmware password limits changes to settings but does not tie the disk key to an unchanged boot chain.
-
-</details>
+Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) has 25 questions across all eight domains, scored by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | B | C | D | A | C | D | B | A | C | B | D | A |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | B | D |
 
-- **11 to 12:** strong. Keep the crypto rules fresh with short mixed sets.
-- **8 to 10:** draw the "who holds which key" grid and the two model rule tables from memory each day.
-- **7 or fewer:** work through Key concepts one block at a time, writing a one-line example for each row, then redo the items.
+- **2:** strong. Keep the crypto rules fresh with short mixed sets.
+- **1:** draw the "who holds which key" grid and the two model rule tables from memory each day.
+- **0:** work through Key concepts one block at a time, writing a one-line example for each row, then redo the items.
 
 ## Next step
 

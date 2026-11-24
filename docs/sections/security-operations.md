@@ -180,146 +180,42 @@ As guidance, sequence and scenario items here take 60 to 80 seconds; recall item
 
 ## Practice items
 
-These 12 items are original, written for these notes. They are not taken from ISC2 or any prep provider.
+These 2 items are original, written for these notes. They are not taken from ISC2 or any prep provider.
 
-### Set 1
-
-**Item 1.** A server suspected of compromise is still running. Investigators may need evidence for court. Which should be collected FIRST?
-
-- A. The contents of system memory
-- B. A forensic image of the hard drive
-- C. The previous night's backup tapes
-- D. Printed copies of the application logs
-
-**Item 2.** A responder hands a seized laptop to the forensic lab, which later passes it to outside counsel. What is MOST important for the laptop's evidence to remain admissible?
-
-- A. Encrypting the laptop's drive before transport
-- B. Sending the laptop by the fastest courier
-- C. A documented chain of custody recording every transfer
-- D. Rebuilding the laptop so it can be examined safely
-
-**Item 3.** The SOC confirms that ransomware is spreading across several workstations. What should the incident response team do FIRST?
+**Item 1.** The SOC confirms that ransomware is spreading across several workstations. What should the incident response team do FIRST?
 
 - A. Wipe and reimage the affected workstations
 - B. Isolate the affected workstations from the network
 - C. Restore the encrypted files from backup
 - D. Issue a press statement about the incident
 
-**Item 4.** Which incident management activity does the MOST to improve how the organisation handles future incidents?
-
-- A. Restoring systems from clean backups
-- B. Reporting the incident to the regulator
-- C. Containing the incident quickly
-- D. Holding a lessons learned review and updating the plan
-
-<details>
-<summary>Answers and explanations, items 1 to 4</summary>
-
-**Item 1: A.** Memory is the most volatile evidence on the list and is lost when the system shuts down or changes. Following the order of volatility, it comes first. *Why not B:* the disk image matters, but disk contents survive longer than memory. *Why not C:* backups are the least volatile and can be collected later.
-
-**Item 2: C.** Evidence is admissible only if its handling can be shown. The chain of custody records who held it, when and why at every step. *Why not A:* encryption protects confidentiality in transit but does not prove the evidence was not altered. *Why not D:* rebuilding the laptop would destroy the evidence.
-
-**Item 3: B.** Containment comes first: isolating the machines stops the ransomware spreading further and preserves evidence. *Why not A:* reimaging before containment lets it keep spreading and destroys evidence. *Why not C:* restoring before containment risks the restored data being encrypted again.
-
-**Item 4: D.** The lessons learned review turns this incident into improvements to plans, controls and training. *Why not C:* fast containment limits damage from this incident but does not by itself improve future handling. *Why not A:* restoration recovers from this incident only.
-
-</details>
-
-### Set 2
-
-**Item 5.** A trading platform has a recovery time objective of two hours. Its data is already replicated continuously to the recovery location, and recovery must not wait for any hardware to be installed or configured. Which recovery site fits?
-
-- A. A cold site
-- B. A warm site
-- C. A hot site
-- D. A reciprocal agreement with another firm
-
-**Item 6.** A full backup runs every Sunday night and a differential backup runs on Monday to Saturday nights. The server fails on Thursday morning before that night's backup. What is needed to restore it?
+**Item 2.** A full backup runs every Sunday night and a differential backup runs on Monday to Saturday nights. The server fails on Thursday morning before that night's backup. What is needed to restore it?
 
 - A. Sunday's full backup and the differentials from Monday, Tuesday and Wednesday
 - B. Sunday's full backup and Wednesday's differential
 - C. Wednesday's differential only
 - D. Sunday's full backup only
 
-**Item 7.** Management wants to prove that the recovery site can process real transactions, but will not allow any disruption to the primary site. Which test fits?
-
-- A. Full interruption
-- B. Tabletop
-- C. Parallel
-- D. Walkthrough
-
-**Item 8.** At 2 a.m. a configuration change is needed to restore a failed customer-facing system. The change advisory board will not meet until next week. What should happen?
-
-- A. Make the change under the emergency change procedure, document it and have it reviewed afterwards
-- B. Wait for the board's next meeting before making any change
-- C. Make the change now and skip the documentation, since emergencies are exempt from change control
-- D. Ask the on-call engineer to decide privately and tell no one
-
 <details>
-<summary>Answers and explanations, items 5 to 8</summary>
+<summary>Answers and explanations, items 1 and 2</summary>
 
-**Item 5: C.** A hot site is fully equipped with current or near-current data and can take over within hours or less. *Why not B:* a warm site needs data loading and configuration, which usually takes longer than two hours. *Why not D:* reciprocal agreements are hard to enforce and rarely give guaranteed capacity in that time.
+**Item 1: B.** Containment comes first: isolating the machines stops the ransomware spreading further and preserves evidence. *Why not A:* reimaging before containment lets it keep spreading and destroys evidence. *Why not C:* restoring before containment risks the restored data being encrypted again.
 
-**Item 6: B.** A differential holds all changes since the last full, so the last full plus the latest differential is enough. *Why not A:* the Monday and Tuesday differentials are already included in Wednesday's. *Why not C:* a differential without its full backup cannot restore the system.
-
-**Item 7: C.** A parallel test brings up the recovery site and processes real data while the primary keeps running. *Why not A:* a full interruption shuts down the primary site, which management has ruled out. *Why not B:* a tabletop is a discussion and proves nothing about processing.
-
-**Item 8: A.** Emergency changes follow a faster procedure but are still documented and reviewed afterwards. *Why not B:* waiting a week leaves customers down when an approved emergency path exists. *Why not C:* skipping documentation breaks change control and leaves no record for review or rollback.
+**Item 2: B.** A differential holds all changes since the last full, so the last full plus the latest differential is enough. *Why not A:* the Monday and Tuesday differentials are already included in Wednesday's. *Why not C:* a differential without its full backup cannot restore the system.
 
 </details>
 
-### Set 3
-
-**Item 9.** A file server needs to keep running if one disk fails, and should use disk capacity more efficiently than mirroring. It has four disks. Which RAID level fits?
-
-- A. RAID 0
-- B. RAID 1
-- C. JBOD (no RAID)
-- D. RAID 5
-
-**Item 10.** A vendor releases a fix for a flaw that is being actively exploited in internet-facing web servers like yours. What is the BEST approach?
-
-- A. Wait for the next quarterly maintenance window
-- B. Test the patch quickly, then deploy it through the emergency change process, starting with exposed servers
-- C. Deploy it immediately to every server in the estate at once, skipping testing to save time
-- D. Rely on the antivirus software until the next window
-
-**Item 11.** A night guard could be forced at gunpoint to open the data centre door. Which control lets the guard signal for help without alerting the attacker?
-
-- A. A mantrap at the entrance
-- B. CCTV with recording
-- C. A second guard on the same shift
-- D. A duress code or silent alarm
-
-**Item 12.** An employee who normally downloads about 50 MB a day suddenly pulls 40 GB from the file server at 3 a.m. No malware is involved. Which tool is MOST likely to flag this?
-
-- A. User and entity behaviour analytics
-- B. A signature-based intrusion detection system
-- C. Anti-malware on the endpoint
-- D. A honeypot on the server network
-
-<details>
-<summary>Answers and explanations, items 9 to 12</summary>
-
-**Item 9: D.** RAID 5 stripes data with distributed parity across three or more disks, survives one disk failure and gives more usable space than mirroring. *Why not B:* RAID 1 mirrors, which survives a failure but uses half the capacity, which the question rules out. *Why not A:* RAID 0 has no redundancy at all.
-
-**Item 10: B.** Active exploitation of exposed systems justifies the emergency change path, with quick testing to avoid breaking production and priority on the most exposed servers. *Why not A:* waiting leaves known exploited systems open. *Why not C:* untested deployment to everything risks outages and skips change control.
-
-**Item 11: D.** A duress code or silent alarm signals coercion covertly. *Why not B:* CCTV records the event but does not alert anyone that the guard is being forced. *Why not A:* a mantrap controls entry but does not help a guard who is being made to open it.
-
-**Item 12: A.** UEBA learns normal behaviour for each user and flags large deviations, such as an unusual volume at an unusual hour. *Why not B:* a signature IDS looks for known attack patterns, and a legitimate account reading files may match none. *Why not C:* there is no malware for anti-malware to find.
-
-</details>
+Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) has 25 questions across all eight domains, scored by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | A | C | B | D | C | B | C | A | D | B | D | A |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | B | B |
 
-- **11 to 12:** strong. Domain 7 is broad, so keep doing mixed sets.
-- **8 to 10:** most misses here are sequence errors. Write the incident stages and the order of volatility from memory.
-- **7 or fewer:** work through the backup, site, RAID and DR test tables until you can rebuild them, then redo the items.
+- **2:** strong. Domain 7 is broad, so keep doing mixed sets.
+- **1:** most misses here are sequence errors. Write the incident stages and the order of volatility from memory.
+- **0:** work through the backup, site, RAID and DR test tables until you can rebuild them, then redo the items.
 
 ## Next step
 

@@ -145,9 +145,7 @@ As guidance, Domain 8 items take 45 to 70 seconds. Code-level questions are quic
 
 ## Practice items
 
-These 12 items are original, written for these notes. They are not taken from ISC2 or any prep provider.
-
-### Set 1
+These 2 items are original, written for these notes. They are not taken from ISC2 or any prep provider.
 
 **Item 1.** A team wants to catch coding flaws such as unsafe string handling on every commit, before the application is even built and run. Which testing approach fits?
 
@@ -156,64 +154,7 @@ These 12 items are original, written for these notes. They are not taken from IS
 - C. Interactive application security testing
 - D. A penetration test
 
-**Item 2.** A company wants to know which of its applications include an open-source logging library with a newly published critical vulnerability. Which tool answers this BEST?
-
-- A. Dynamic application security testing
-- B. A web application firewall
-- C. Software composition analysis
-- D. Manual code review of each application
-
-**Item 3.** During automated functional testing, an agent running inside the application reports security flaws with the exact line of code involved. What is this?
-
-- A. Static application security testing
-- B. Software composition analysis
-- C. Dynamic application security testing
-- D. Interactive application security testing
-
-**Item 4.** A login form is vulnerable to SQL injection. What is the BEST fix?
-
-- A. Add JavaScript validation in the browser to reject quotes
-- B. Rewrite the database calls to use parameterised queries
-- C. Place a web application firewall in front of the site
-- D. Hide database error messages from users
-
-<details>
-<summary>Answers and explanations, items 1 to 4</summary>
-
-**Item 1: A.** SAST analyses source code without running it, so it can run on every commit, early in the pipeline. *Why not B:* DAST needs a running application. *Why not C:* IAST also needs the application running under test.
-
-**Item 2: C.** Software composition analysis inventories third-party components and matches them against known vulnerabilities, across all applications. *Why not D:* manual review of every codebase is slow and error-prone for a question SCA answers directly. *Why not A:* DAST tests behaviour from outside and does not reliably list the libraries inside.
-
-**Item 3: D.** IAST uses an agent inside the running application during tests and can point to the exact code involved. *Why not C:* DAST tests from outside and cannot see the code. *Why not A:* SAST does not run the application.
-
-**Item 4: B.** Parameterised queries keep data separate from the SQL command, which removes the root cause. *Why not C:* a WAF is a compensating control that can be bypassed; the flaw stays in the code. *Why not A:* browser-side checks are bypassed by sending requests directly.
-
-</details>
-
-### Set 2
-
-**Item 5.** An organisation's software processes are documented and standardised across all teams, but are not yet managed with quantitative measures. Which CMM level is this?
-
-- A. Initial
-- B. Repeatable
-- C. Defined
-- D. Optimising
-
-**Item 6.** A product team deploys many times a day. A manual security review at the end of each release is causing delays, so teams have started skipping it. What is the BEST approach?
-
-- A. Build automated security tests into the CI/CD pipeline and name a security champion in each team
-- B. Remove security reviews to keep delivery fast
-- C. Replace the reviews with a penetration test once a quarter
-- D. Freeze releases until the security team can manually review every change, however long that takes
-
-**Item 7.** Before buying a commercial application that will process sensitive customer data, you must judge its security. The vendor will not share source code. What is the BEST approach?
-
-- A. Insist on a full copy of the source code and refuse to proceed with the purchase until it is provided
-- B. Rely on the vendor's marketing claims about security
-- C. Assume it is secure because many other companies use it
-- D. Review independent security assessments, set security terms in the contract, and test it yourself in staging
-
-**Item 8.** A developer finds that a cloud API key was committed to a public repository three months ago. What is the MOST important action?
+**Item 2.** A developer finds that a cloud API key was committed to a public repository three months ago. What is the MOST important action?
 
 - A. Delete the file containing the key from the repository
 - B. Revoke the key and issue a new one, then review its recent use
@@ -221,70 +162,25 @@ These 12 items are original, written for these notes. They are not taken from IS
 - D. Add the file to the repository's ignore list
 
 <details>
-<summary>Answers and explanations, items 5 to 8</summary>
+<summary>Answers and explanations, items 1 and 2</summary>
 
-**Item 5: C.** Documented, organisation-wide standard processes are the Defined level, level 3. *Why not B:* Repeatable means basic project discipline that can be repeated on similar projects, not organisation-wide standards. *Why not D:* Optimising needs measurement-driven continuous improvement.
+**Item 1: A.** SAST analyses source code without running it, so it can run on every commit, early in the pipeline. *Why not B:* DAST needs a running application. *Why not C:* IAST also needs the application running under test.
 
-**Item 6: A.** DevSecOps moves security into the pipeline as automated checks, with champions in each team, so security keeps pace with delivery. *Why not C:* a quarterly test leaves months of releases unchecked. *Why not D:* freezing releases ignores the business need and will be bypassed again.
-
-**Item 7: D.** Without source code, assurance comes from independent assessments, contractual commitments and your own testing. *Why not A:* COTS vendors rarely share source, and refusing to proceed ignores other ways to gain assurance. *Why not C:* popularity is not evidence of security.
-
-**Item 8: B.** The key has been exposed for months and may already be copied. Revoking it stops misuse; reviewing its use shows whether it was abused. *Why not A:* deleting the file leaves the key in history and in any copies. *Why not C:* making the repository private now does not undo three months of exposure.
+**Item 2: B.** The key has been exposed for months and may already be copied. Revoking it stops misuse; reviewing its use shows whether it was abused. *Why not A:* deleting the file leaves the key in history and in any copies. *Why not C:* making the repository private now does not undo three months of exposure.
 
 </details>
 
-### Set 3
-
-**Item 9.** Comments posted by users on a forum run as scripts in other users' browsers. What is the BEST fix?
-
-- A. Require users to choose stronger passwords and turn on multi-factor authentication
-- B. Serve the forum over HTTPS only
-- C. Encode user content for the context where it is displayed, and validate input on the server
-- D. Add anti-CSRF tokens to the comment form so that forged submissions are rejected
-
-**Item 10.** A logged-in user visits a malicious site, which silently makes their browser submit a funds transfer to the user's bank. Which control BEST prevents this?
-
-- A. Context-aware output encoding
-- B. TLS on the bank's website
-- C. Input length checks on the transfer form
-- D. Anti-CSRF tokens tied to the user's session
-
-**Item 11.** Developers use an AI coding assistant. A review finds it sometimes suggests importing packages that do not exist in the public registry. What is the BEST control?
-
-- A. Ban all third-party packages and write every component in-house from now on
-- B. Check every new dependency against an approved source and software composition analysis before it is added
-- C. Let the assistant install packages automatically, then remove any that fail to build
-- D. Rely on the assistant's own confidence scores
-
-**Item 12.** Which control BEST prevents unauthorised code changes from reaching production?
-
-- A. Required peer review and an approved pipeline that deploys signed builds, with no direct developer access to production
-- B. Allowing senior developers to deploy directly to production, provided they note each change afterwards
-- C. A monthly review of production server logs by the operations team to spot unexpected changes
-- D. Asking developers to describe their changes in the team chat
-
-<details>
-<summary>Answers and explanations, items 9 to 12</summary>
-
-**Item 9: C.** This is stored cross-site scripting. Encoding output for its context stops content being run as script, and server-side validation reduces bad input. *Why not D:* CSRF tokens stop forged requests, not scripts embedded in content. *Why not B:* HTTPS protects data in transit; the script still runs.
-
-**Item 10: D.** This is cross-site request forgery. A token tied to the session, which the malicious site cannot know, makes forged requests fail. *Why not A:* output encoding stops XSS, not forged requests. *Why not B:* TLS encrypts the request but the browser still sends it with valid cookies.
-
-**Item 11: B.** Invented package names can be registered by attackers with malicious code, so every dependency must be verified before use. *Why not A:* banning all packages is not proportionate and would stop most development. *Why not C:* automatic installation is exactly how a malicious look-alike package would get in.
-
-**Item 12: A.** Peer review, a controlled pipeline, signed builds and no direct production access enforce separation of duties and change control. *Why not C:* a monthly log review detects changes after the fact and does not prevent them. *Why not B:* direct deployment by individuals bypasses review.
-
-</details>
+Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) has 25 questions across all eight domains, scored by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | A | C | D | B | C | A | D | B | C | D | B | A |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | A | B |
 
-- **11 to 12:** strong. Keep the testing tools table fresh.
-- **8 to 10:** check whether misses were about tools, weaknesses or process, and redo that table.
-- **7 or fewer:** learn the lifecycle table and the weakness-to-fix table, then redo the items.
+- **2:** strong. Keep the testing tools table fresh.
+- **1:** check whether misses were about tools, weaknesses or process, and redo that table.
+- **0:** learn the lifecycle table and the weakness-to-fix table, then redo the items.
 
 ## Next step
 

@@ -135,146 +135,42 @@ Most Domain 2 items are quick once you spot the distinction. As guidance, aim fo
 
 ## Practice items
 
-These 12 items are original, written for these notes. They are not taken from ISC2 or any prep provider.
+These 2 items are original, written for these notes. They are not taken from ISC2 or any prep provider.
 
-### Set 1
-
-**Item 1.** HR has built a new dataset combining salary, disciplinary and medical leave records. Who should decide its classification?
-
-- A. The database administrator who maintains it
-- B. The HR director who is accountable for the data
-- C. The CISO, who owns the classification policy
-- D. The HR staff who enter records into it
-
-**Item 2.** Solid-state drives that held secret project data are being retired and will leave the organisation for recycling. Which method is MOST reliable?
+**Item 1.** Solid-state drives that held secret project data are being retired and will leave the organisation for recycling. Which method is MOST reliable?
 
 - A. Degaussing each drive
 - B. Overwriting each drive three times
 - C. Physically destroying each drive
 - D. Reformatting each drive
 
-**Item 3.** A company uses an outside payroll provider. The company decides which employee data is processed and for what purpose; the provider runs the calculations on the company's instructions. Under privacy law terminology, the provider is the:
-
-- A. data controller.
-- B. data processor.
-- C. data custodian.
-- D. data steward.
-
-**Item 4.** A gateway rule scans outgoing email and blocks messages containing payment card numbers. Which data state does it primarily protect?
-
-- A. Data at rest
-- B. Data in use
-- C. Data in transit
-- D. Archived data
-
-<details>
-<summary>Answers and explanations, items 1 to 4</summary>
-
-**Item 1: B.** The data owner, a business manager accountable for the data, classifies it. *Why not C:* the CISO writes the policy that defines the levels, but does not classify each business dataset. *Why not A:* the DBA is a custodian, who implements the owner's decisions.
-
-**Item 2: C.** For sensitive data on SSDs leaving your control, physical destruction is the most certain method. *Why not A:* degaussing does not affect flash storage. *Why not B:* wear levelling and spare blocks mean overwrites may miss data on an SSD.
-
-**Item 3: B.** A party that processes personal data on another's instructions is a processor. The company, which decides purpose and means, is the controller. *Why not C:* custodian is a security role, usually internal IT, not the privacy law term for an outside processor. *Why not A:* the provider does not decide the purpose.
-
-**Item 4: C.** Email leaving through a gateway is moving across the network, so it is data in transit. *Why not A:* the rule does not touch stored data. *Why not B:* in use means data being processed in memory.
-
-</details>
-
-### Set 2
-
-**Item 5.** An organisation adopts a control baseline. For a lab system with no wireless capability, the team removes the wireless controls because they do not apply, before adjusting any settings of the remaining controls. Removing the controls that do not apply is:
-
-- A. tailoring.
-- B. scoping.
-- C. compensating.
-- D. hardening.
-
-**Item 6.** Policy says email is deleted after two years. Legal counsel warns that litigation is likely over a deal from three years ago, and copies of those emails still exist on backup tapes due to be overwritten next month. What should happen FIRST?
+**Item 2.** Policy says email is deleted after two years. Legal counsel warns that litigation is likely over a deal from three years ago, and copies of those emails still exist on backup tapes due to be overwritten next month. What should happen FIRST?
 
 - A. Place a legal hold on the relevant data and suspend the scheduled overwrite
 - B. Let the overwrite proceed, since the policy retention period has passed
 - C. Restore the emails and have security staff review them for relevance
 - D. Ask the staff involved whether they kept personal copies
 
-**Item 7.** A database server runs an operating system that reached end of support last month. The vendor offers no extended support and the application cannot be migrated for nine months. What is the BEST approach?
-
-- A. Keep running it as it is, since it has had no incidents
-- B. Shut it down immediately until a migration is complete
-- C. Install third-party antivirus on the server and record the risk as resolved in the register
-- D. Isolate it, add compensating controls, and have the owner formally accept the remaining risk until migration
-
-**Item 8.** Your organisation is leaving a public cloud provider and must ensure its stored data cannot be recovered from the provider's disks. All the data was encrypted with keys that your organisation manages, and you cannot access the hardware. Which approach is BEST?
-
-- A. Ask the provider to degauss the disks that held your data
-- B. Delete all objects and rely on the provider's standard process for reusing storage
-- C. Destroy the encryption keys protecting the data so the remaining ciphertext is unreadable
-- D. Overwrite every stored object with random data several times before deleting it
-
 <details>
-<summary>Answers and explanations, items 5 to 8</summary>
+<summary>Answers and explanations, items 1 and 2</summary>
 
-**Item 5: B.** Removing controls that do not apply to a system is scoping. *Why not A:* tailoring adjusts the controls that remain, such as setting parameters. Some frameworks, including NIST, describe scoping as one step within tailoring, but when the options separate them, removing inapplicable controls is scoping. *Why not C:* nothing is being substituted for a control that cannot be met.
+**Item 1: C.** For sensitive data on SSDs leaving your control, physical destruction is the most certain method. *Why not A:* degaussing does not affect flash storage. *Why not B:* wear levelling and spare blocks mean overwrites may miss data on an SSD.
 
-**Item 6: A.** Anticipated litigation creates a duty to preserve relevant data. A legal hold overrides the normal schedule and must come first, before the evidence is lost. *Why not B:* destroying evidence once litigation is foreseeable can bring serious legal penalties. *Why not C:* review comes later, under counsel's direction; preservation comes first.
-
-**Item 7: D.** With no support and no quick migration, the risk must be reduced with isolation and compensating controls, and the owner must accept what remains in writing. *Why not B:* an immediate shutdown ignores the business need and is not proportionate to a risk that can be reduced. *Why not A:* doing nothing is not acceptance; it is ignoring the risk.
-
-**Item 8: C.** Cryptographic erasure is the practical method when you cannot reach the media. Without the keys, the ciphertext left on the provider's disks is useless. *Why not D:* in cloud storage, overwriting an object may write to new physical blocks and leave the old ones intact. *Why not A:* providers will not degauss shared disks for one tenant, and degaussing fails on SSDs anyway.
+**Item 2: A.** Anticipated litigation creates a duty to preserve relevant data. A legal hold overrides the normal schedule and must come first, before the evidence is lost. *Why not B:* destroying evidence once litigation is foreseeable can bring serious legal penalties. *Why not C:* review comes later, under counsel's direction; preservation comes first.
 
 </details>
 
-### Set 3
-
-**Item 9.** A law firm wants to send draft contracts to clients and prevent the files from being printed, forwarded or opened after 30 days, even on the clients' own computers. Which control fits BEST?
-
-- A. Digital rights management
-- B. Data loss prevention
-- C. Full-disk encryption
-- D. A cloud access security broker
-
-**Item 10.** The security team suspects staff are using dozens of unapproved file-sharing and AI tools in the cloud. They want to discover which services are in use and enforce policy on them. Which control fits BEST?
-
-- A. Digital rights management
-- B. Data loss prevention on each laptop
-- C. A web application firewall
-- D. A cloud access security broker
-
-**Item 11.** A newly hired CISO is asked to improve protection of the company's information. Which should come FIRST?
-
-- A. Build an inventory of information assets and identify their owners
-- B. Deploy DLP on all endpoints
-- C. Encrypt every server and laptop
-- D. Write handling procedures for each classification level
-
-**Item 12.** Marketing wants the newsletter sign-up form to ask for full date of birth "in case it is useful later". The newsletter has no age restriction. Which response follows privacy principles BEST?
-
-- A. Collect it, but encrypt it at rest
-- B. Collect it, as long as subscribers tick a consent box
-- C. Collect it, and anonymise it after one year
-- D. Do not collect it, because the stated purpose does not need it
-
-<details>
-<summary>Answers and explanations, items 9 to 12</summary>
-
-**Item 9: A.** DRM controls what can be done with a file wherever it goes, including printing, forwarding and expiry. *Why not B:* DLP stops data leaving your environment; here the files are meant to leave. *Why not C:* disk encryption protects data at rest on your devices, not the file on a client's machine.
-
-**Item 10: D.** A CASB discovers cloud service use, including shadow IT, and enforces policy on it. *Why not B:* endpoint DLP looks for sensitive content leaving devices; it does not map and govern cloud services. *Why not C:* a WAF protects your own web applications from attacks.
-
-**Item 11: A.** You cannot classify or protect what you have not identified. Inventory and ownership come first, then classification, then handling rules and tools. *Why not D:* handling procedures depend on classification, which depends on knowing the assets. *Why not C:* blanket encryption is a tool choice made before knowing what needs protecting.
-
-**Item 12: D.** Data minimisation means collecting only what the stated purpose needs. With no age rule, date of birth is not needed. *Why not B:* consent does not make unnecessary collection minimal. *Why not A:* encryption protects data you hold; the question is whether to hold it at all.
-
-</details>
+Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) has 25 questions across all eight domains, scored by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | B | C | B | C | B | A | D | C | A | D | A | D |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | C | A |
 
-- **11 to 12:** solid. Domain 2 is worth 10%, so move on to a heavier domain.
-- **8 to 10:** list the term pairs you mixed up and write one line for each that separates them.
-- **7 or fewer:** reread the roles table and the sanitisation table until you can rebuild them from memory, then redo the items.
+- **2:** solid. Domain 2 is worth 10%, so move on to a heavier domain.
+- **1:** list the term pairs you mixed up and write one line for each that separates them.
+- **0:** reread the roles table and the sanitisation table until you can rebuild them from memory, then redo the items.
 
 ## Next step
 
