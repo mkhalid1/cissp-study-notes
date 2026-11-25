@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Domain 3: Security Architecture and Engineering](security-architecture-and-engineering.md) · Next: [Domain 5: Identity and Access Management](identity-and-access-management.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Domain 3: Security Architecture and Engineering](security-architecture-and-engineering.md) · Next: [Domain 5: Identity and Access Management](identity-and-access-management.md)
+<!-- /nav:top -->
 
 # Domain 4: Communication and Network Security
 
@@ -202,4 +204,6 @@ Practise switching between network detail and design judgement in a timed run. T
 
 ---
 
-<!-- nav:bottom -->← Previous: [Domain 3: Security Architecture and Engineering](security-architecture-and-engineering.md) | Next: [Domain 5: Identity and Access Management](identity-and-access-management.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Domain 3: Security Architecture and Engineering](security-architecture-and-engineering.md) | Next: [Domain 5: Identity and Access Management](identity-and-access-management.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

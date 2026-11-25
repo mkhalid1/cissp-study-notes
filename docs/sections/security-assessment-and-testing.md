@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Domain 5: Identity and Access Management](identity-and-access-management.md) · Next: [Domain 7: Security Operations](security-operations.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Domain 5: Identity and Access Management](identity-and-access-management.md) · Next: [Domain 7: Security Operations](security-operations.md)
+<!-- /nav:top -->
 
 # Domain 6: Security Assessment and Testing
 
@@ -183,4 +185,6 @@ Try these distinctions under time pressure with the [free CISSP practice test on
 
 ---
 
-<!-- nav:bottom -->← Previous: [Domain 5: Identity and Access Management](identity-and-access-management.md) | Next: [Domain 7: Security Operations](security-operations.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Domain 5: Identity and Access Management](identity-and-access-management.md) | Next: [Domain 7: Security Operations](security-operations.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

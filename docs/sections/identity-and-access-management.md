@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Domain 4: Communication and Network Security](communication-and-network-security.md) · Next: [Domain 6: Security Assessment and Testing](security-assessment-and-testing.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Domain 4: Communication and Network Security](communication-and-network-security.md) · Next: [Domain 6: Security Assessment and Testing](security-assessment-and-testing.md)
+<!-- /nav:top -->
 
 # Domain 5: Identity and Access Management
 
@@ -174,4 +176,6 @@ Put IAM against the clock with the [free CISSP practice test on PrepClubs](https
 
 ---
 
-<!-- nav:bottom -->← Previous: [Domain 4: Communication and Network Security](communication-and-network-security.md) | Next: [Domain 6: Security Assessment and Testing](security-assessment-and-testing.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Domain 4: Communication and Network Security](communication-and-network-security.md) | Next: [Domain 6: Security Assessment and Testing](security-assessment-and-testing.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

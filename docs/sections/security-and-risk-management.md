@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [5-minute diagnostic](../diagnostic.md) · Next: [Domain 2: Asset Security](asset-security.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [5-minute diagnostic](../diagnostic.md) · Next: [Domain 2: Asset Security](asset-security.md)
+<!-- /nav:top -->
 
 # Domain 1: Security and Risk Management
 
@@ -234,4 +236,6 @@ Domain 1 judgement is easier to train against a clock. Try a timed mixed set wit
 
 ---
 
-<!-- nav:bottom -->← Previous: [5-minute diagnostic](../diagnostic.md) | Next: [Domain 2: Asset Security](asset-security.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [5-minute diagnostic](../diagnostic.md) | Next: [Domain 2: Asset Security](asset-security.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

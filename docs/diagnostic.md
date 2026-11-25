@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Previous: [The CISSP exam explained](test-overview.md) · Next: [Domain 1: Security and Risk Management](sections/security-and-risk-management.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../README.md#contents) · Previous: [The CISSP exam explained](test-overview.md) · Next: [Domain 1: Security and Risk Management](sections/security-and-risk-management.md)
+<!-- /nav:top -->
 
 # 5-minute diagnostic
 
@@ -157,4 +159,6 @@ A perfect score here does not mean you are ready: these items test recall, and t
 
 ---
 
-<!-- nav:bottom -->← Previous: [The CISSP exam explained](test-overview.md) | Next: [Domain 1: Security and Risk Management](sections/security-and-risk-management.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [The CISSP exam explained](test-overview.md) | Next: [Domain 1: Security and Risk Management](sections/security-and-risk-management.md) → | [Back to contents](../README.md#contents)
+<!-- /nav:bottom -->

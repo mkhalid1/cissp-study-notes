@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Domain 1: Security and Risk Management](security-and-risk-management.md) · Next: [Domain 3: Security Architecture and Engineering](security-architecture-and-engineering.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Domain 1: Security and Risk Management](security-and-risk-management.md) · Next: [Domain 3: Security Architecture and Engineering](security-architecture-and-engineering.md)
+<!-- /nav:top -->
 
 # Domain 2: Asset Security
 
@@ -182,4 +184,6 @@ Mix Domain 2 items with other domains so the distinctions hold up under pressure
 
 ---
 
-<!-- nav:bottom -->← Previous: [Domain 1: Security and Risk Management](security-and-risk-management.md) | Next: [Domain 3: Security Architecture and Engineering](security-architecture-and-engineering.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Domain 1: Security and Risk Management](security-and-risk-management.md) | Next: [Domain 3: Security Architecture and Engineering](security-architecture-and-engineering.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

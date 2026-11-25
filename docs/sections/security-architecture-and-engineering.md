@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Domain 2: Asset Security](asset-security.md) · Next: [Domain 4: Communication and Network Security](communication-and-network-security.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Domain 2: Asset Security](asset-security.md) · Next: [Domain 4: Communication and Network Security](communication-and-network-security.md)
+<!-- /nav:top -->
 
 # Domain 3: Security Architecture and Engineering
 
@@ -229,4 +231,6 @@ Domain 3 rewards fast recall under pressure. Test it in a timed run with the [fr
 
 ---
 
-<!-- nav:bottom -->← Previous: [Domain 2: Asset Security](asset-security.md) | Next: [Domain 4: Communication and Network Security](communication-and-network-security.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Domain 2: Asset Security](asset-security.md) | Next: [Domain 4: Communication and Network Security](communication-and-network-security.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

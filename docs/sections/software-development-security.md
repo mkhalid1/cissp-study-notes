@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Domain 7: Security Operations](security-operations.md) · Next: [How CISSP scoring works](../scoring.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Domain 7: Security Operations](security-operations.md) · Next: [How CISSP scoring works](../scoring.md)
+<!-- /nav:top -->
 
 # Domain 8: Software Development Security
 
@@ -192,4 +194,6 @@ Mix Domain 8 with the other domains in the [free CISSP practice test on PrepClub
 
 ---
 
-<!-- nav:bottom -->← Previous: [Domain 7: Security Operations](security-operations.md) | Next: [How CISSP scoring works](../scoring.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Domain 7: Security Operations](security-operations.md) | Next: [How CISSP scoring works](../scoring.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

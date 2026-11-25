@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Next: [5-minute diagnostic](diagnostic.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../README.md#contents) · Next: [5-minute diagnostic](diagnostic.md)
+<!-- /nav:top -->
 
 # The CISSP exam explained
 
@@ -97,4 +99,6 @@ Reading builds knowledge. The adaptive, no-going-back format needs practice of i
 
 ---
 
-<!-- nav:bottom -->Next: [5-minute diagnostic](diagnostic.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+Next: [5-minute diagnostic](diagnostic.md) → | [Back to contents](../README.md#contents)
+<!-- /nav:bottom -->

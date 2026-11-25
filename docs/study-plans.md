@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Previous: [Timing and pacing](timing.md) · Next: [For hands-on practitioners](for-practitioners.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../README.md#contents) · Previous: [Timing and pacing](timing.md) · Next: [For hands-on practitioners](for-practitioners.md)
+<!-- /nav:top -->
 
 # Study plans
 
@@ -66,4 +68,6 @@ For when the exam is the day after tomorrow.
 
 ---
 
-<!-- nav:bottom -->← Previous: [Timing and pacing](timing.md) | Next: [For hands-on practitioners](for-practitioners.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Timing and pacing](timing.md) | Next: [For hands-on practitioners](for-practitioners.md) → | [Back to contents](../README.md#contents)
+<!-- /nav:bottom -->

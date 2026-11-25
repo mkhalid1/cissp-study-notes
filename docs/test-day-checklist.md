@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Previous: [For hands-on practitioners](for-practitioners.md) · Next: [FAQ](faq.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../README.md#contents) · Previous: [For hands-on practitioners](for-practitioners.md) · Next: [FAQ](faq.md)
+<!-- /nav:top -->
 
 # Test-day checklist
 
@@ -45,4 +47,6 @@ A final timed run a few days before, not the night before, helps you trust your 
 
 ---
 
-<!-- nav:bottom -->← Previous: [For hands-on practitioners](for-practitioners.md) | Next: [FAQ](faq.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [For hands-on practitioners](for-practitioners.md) | Next: [FAQ](faq.md) → | [Back to contents](../README.md#contents)
+<!-- /nav:bottom -->

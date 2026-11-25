@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Previous: [Domain 8: Software Development Security](sections/software-development-security.md) · Next: [Timing and pacing](timing.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../README.md#contents) · Previous: [Domain 8: Software Development Security](sections/software-development-security.md) · Next: [Timing and pacing](timing.md)
+<!-- /nav:top -->
 
 # How CISSP scoring works
 
@@ -73,4 +75,6 @@ Practice tests cannot reproduce ISC2's scaled score or its item bank, so no prac
 
 ---
 
-<!-- nav:bottom -->← Previous: [Domain 8: Software Development Security](sections/software-development-security.md) | Next: [Timing and pacing](timing.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Domain 8: Software Development Security](sections/software-development-security.md) | Next: [Timing and pacing](timing.md) → | [Back to contents](../README.md#contents)
+<!-- /nav:bottom -->

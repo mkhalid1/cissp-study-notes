@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Domain 6: Security Assessment and Testing](security-assessment-and-testing.md) · Next: [Domain 8: Software Development Security](software-development-security.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Domain 6: Security Assessment and Testing](security-assessment-and-testing.md) · Next: [Domain 8: Software Development Security](software-development-security.md)
+<!-- /nav:top -->
 
 # Domain 7: Security Operations
 
@@ -227,4 +229,6 @@ Sequence questions are where nerves hurt most. Practise them timed with the [fre
 
 ---
 
-<!-- nav:bottom -->← Previous: [Domain 6: Security Assessment and Testing](security-assessment-and-testing.md) | Next: [Domain 8: Software Development Security](software-development-security.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Domain 6: Security Assessment and Testing](security-assessment-and-testing.md) | Next: [Domain 8: Software Development Security](software-development-security.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->
