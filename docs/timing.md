@@ -55,7 +55,7 @@ ISC2 does not limit the number or length of breaks, but every minute counts towa
 
 ## Practise against the clock
 
-Do practice sets in one sitting, with a timer, and **without going back** to earlier items, so the real exam feels familiar. The [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) is a timed set you can use for this.
+Do practice sets in one sitting, with a timer, and **without going back** to earlier items, so the real exam feels familiar. The [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp) is a timed set you can use for this.
 
 ## Sources
 

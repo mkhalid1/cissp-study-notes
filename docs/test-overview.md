@@ -95,7 +95,7 @@ The visible changes: Domain 1 is renamed to put governance first, the weights be
 
 ## Practise the real format
 
-Reading builds knowledge. The adaptive, no-going-back format needs practice of its own. Start with the [5-minute diagnostic](diagnostic.md) to find your weak domains, then try a timed set such as the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp).
+Reading builds knowledge. The adaptive, no-going-back format needs practice of its own. Start with the [5-minute diagnostic](diagnostic.md) to find your weak domains, then try a timed set such as the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp).
 
 ---
 

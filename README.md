@@ -2,7 +2,7 @@
 
 A free, structured study guide for the ISC2 CISSP exam: how the adaptive exam works, a guide to each of the eight domains with the key concepts examiners test, 16 original practice items with full explanations, an 8-item diagnostic, how scoring really works, and plans for your final week or final two days. Written for working security and IT professionals, with a dedicated page on thinking like a manager, which is where most technical candidates lose marks. Facts about the exam come only from ISC2's own pages, each one [cited](docs/sources.md).
 
-Want to see where you stand first? Take the [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp), or the shorter [5-minute diagnostic](docs/diagnostic.md) in this repo.
+Want to see where you stand first? Take the [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp), or the shorter [5-minute diagnostic](docs/diagnostic.md) in this repo.
 
 ## Start here
 
@@ -221,7 +221,7 @@ Every domain guide has the same parts: what it covers (the official subdomains),
 - **Test yourself honestly.** Answers are hidden under "Answers and explanations". Commit to an answer before you open them.
 - **Read every explanation,** including for items you got right. Each one says why the nearest wrong option loses, which is where CISSP points are won.
 - **Keep a miss log.** For each miss, write why the right answer was better, not just correct. The [study plans](docs/study-plans.md#how-to-review-a-missed-item) show how.
-- **Practise without going back.** The real exam does not allow review. A timed run, such as the [free one on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp), trains the pace.
+- **Practise without going back.** The real exam does not allow review. A timed run, such as the [free one on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp), trains the pace.
 - **Clone or fork it** to annotate your own copy. The structure also works as a GitBook space: see [SUMMARY.md](SUMMARY.md).
 
 ## About the practice items

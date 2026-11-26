@@ -209,7 +209,7 @@ These 2 items are original, written for these notes. They are not taken from ISC
 
 </details>
 
-Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) has 25 questions across all eight domains, scored by domain.
+Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp) has 25 questions across all eight domains, scored by domain.
 
 ## Score yourself
 
@@ -223,7 +223,7 @@ Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.c
 
 ## Next step
 
-Domain 3 rewards fast recall under pressure. Test it in a timed run with the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp), and return to the traps list for anything that slipped.
+Domain 3 rewards fast recall under pressure. Test it in a timed run with the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp), and return to the traps list for anything that slipped.
 
 ## Sources for this page
 

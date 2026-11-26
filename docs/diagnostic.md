@@ -8,7 +8,7 @@ Eight short, original items, one from each domain, to show you where to start. M
 
 These items are original, written for these notes. They are not taken from ISC2 or any prep provider. They are shorter and more direct than real CISSP items, because the goal here is to find gaps in knowledge quickly. The domain guides have longer, exam-style scenarios.
 
-If you already know your weak areas, skip this and take the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) for a timed, mixed set instead.
+If you already know your weak areas, skip this and take the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp) for a timed, mixed set instead.
 
 ## Part A: Security and Risk Management
 
@@ -138,7 +138,7 @@ If you already know your weak areas, skip this and take the [free CISSP practice
 
 </details>
 
-Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) has 25 questions across all eight domains, scored by domain.
+Want more? The [free timed CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp) has 25 questions across all eight domains, scored by domain.
 
 ## What your result means
 

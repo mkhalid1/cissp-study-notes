@@ -43,7 +43,7 @@ A short list for the day before, the morning of the exam, and afterwards. Follow
 
 ## Last practice before the real one
 
-A final timed run a few days before, not the night before, helps you trust your pacing. The [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp) is one option.
+A final timed run a few days before, not the night before, helps you trust your pacing. The [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp) is one option.
 
 ---
 

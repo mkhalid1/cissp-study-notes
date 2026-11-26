@@ -64,7 +64,7 @@ No. ISC2's adaptive exam does not allow item review. Once you finalise an answer
 
 ## Where can I practise for free?
 
-The practice items in every [domain guide](../README.md#the-eight-domains-at-a-glance) here are free and original. For a timed mixed set, try the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp).
+The practice items in every [domain guide](../README.md#the-eight-domains-at-a-glance) here are free and original. For a timed mixed set, try the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp).
 
 ---
 

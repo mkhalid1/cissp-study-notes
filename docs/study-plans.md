@@ -22,7 +22,7 @@ Expect about 2 to 3 hours a day.
 | 2 | Domain 1 plus weakest domain | Domain 1 is the largest at 16% and shapes how you answer everywhere else. Redo its 2 items, then your weakest domain's items. Log every miss. |
 | 3 | Architecture and networks | Domains 3 and 4. Rebuild the crypto key grid, the model rules and the OSI table from memory, then redo both item sets. |
 | 4 | Identity, testing and software | Domains 5, 6 and 8. Focus on the protocol table, the testing techniques table and the weakness-to-fix table. |
-| 5 | First timed run | A full timed practice session with no going back, such as the [free test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp). Read the [timing guide](timing.md) first. Review every miss. |
+| 5 | First timed run | A full timed practice session with no going back, such as the [free test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp). Read the [timing guide](timing.md) first. Review every miss. |
 | 6 | Operations and asset security | Domains 7 and 2. Write out the backup, site, RAID and DR test tables, and the sanitisation table. Redo items for your weakest domain from day 5. |
 | 7 | Light review and rest | Read the traps lists for all eight domains, nothing else. Read the [test-day checklist](test-day-checklist.md). Stop by early evening. |
 
@@ -47,7 +47,7 @@ For when the exam is the day after tomorrow.
 | 1 | 7 min | Take the [diagnostic](diagnostic.md). |
 | 2 | 60 min | Read the "Key concepts" and "Traps" sections for your two weakest domains. |
 | 3 | 45 min | Do those two domains' practice items and read every explanation. |
-| 4 | 60 min | A timed mixed practice set without going back, such as the [free PrepClubs test](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp). |
+| 4 | 60 min | A timed mixed practice set without going back, such as the [free PrepClubs test](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp). |
 | 5 | 30 min | Review every miss with the three questions above. |
 
 ### Day 2: the day before the exam

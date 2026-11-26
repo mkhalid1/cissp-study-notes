@@ -59,7 +59,7 @@ Check each rule on ISC2's own pages before you rely on it; they are listed in [S
 
 ## Practise the mindset
 
-The fastest way to build the habit is volume: many scenario items, each followed by asking why the chosen answer beats the runner-up. Every domain guide in these notes explains why the nearest wrong option loses. For timed practice, try the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=cissp).
+The fastest way to build the habit is volume: many scenario items, each followed by asking why the chosen answer beats the runner-up. Every domain guide in these notes explains why the nearest wrong option loses. For timed practice, try the [free CISSP practice test on PrepClubs](https://prepclubs.com/free-practice-tests/cissp?utm_source=github&utm_medium=referral&utm_campaign=557dqd&utm_content=cissp).
 
 ---
 
